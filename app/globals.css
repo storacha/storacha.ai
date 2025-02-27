@@ -3,19 +3,82 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --background: #08265F;
+  --foreground: #BDE0FF;
+  --hot-blue: #0176CE;
+  --hot-blue-light: #BDE0FF;
+  --hot-blue-dark: #08265F;
+  --hot-blue-dark-75: #08265FBF;
+  --hot-red: #E91315;
+  --hot-red-light: #EFE3F3;
+  --hot-yellow-light: #FFE4AE;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-hot-red,
+.hover\:bg-hot-red:hover {
+  background-color: var(--hot-red);
+}
+.bg-hot-red-light,
+.hover\:bg-hot-red-light:hover {
+  background-color: var(--hot-red-light);
+}
+.bg-hot-blue,
+.hover\:bg-hot-blue:hover {
+  background-color: var(--hot-blue);
+}
+.bg-hot-blue-light,
+.hover\:bg-hot-blue-light:hover {
+  background-color: var(--hot-blue-light);
+}
+.bg-hot-blue-dark {
+  background-color: var(--hot-blue-dark);
+}
+.bg-hot-blue-dark\/75 {
+  background-color: var(--hot-blue-dark-75);
+}
+.bg-hot-yellow-light,
+.hover\:bg-hot-yellow-light:hover {
+  background-color: var(--hot-yellow-light);
+}
+.border-hot-red,
+.hover\:border-hot-red:hover {
+  border-color: var(--hot-red);
+}
+.border-hot-yellow-light {
+  border-color: var(--hot-yellow-light);
+}
+.border-hot-blue,
+.hover\:border-hot-blue:hover {
+  border-color: var(--hot-blue);
+}
+.border-hot-blue-light,
+.hover\:border-hot-blue-light:hover {
+  border-color: var(--hot-blue-light);
+}
+.border-hot-blue-dark {
+  border-color: var(--hot-blue-dark);
+}
+.text-hot-red,
+.hover\:text-hot-red:hover {
+  color: var(--hot-red);
+}
+.text-hot-red-light {
+  color: var(--hot-red-light);
+}
+.text-hot-yellow {
+  color: var(--hot-yellow);
+}
+.text-hot-blue-light,
+.hover\:text-hot-blue-light:hover {
+  color: var(--hot-blue-light);
+}
+.text-hot-blue-dark,
+.hover\:text-hot-blue-dark:hover {
+  color: var(--hot-blue-dark);
 }
