@@ -10,7 +10,7 @@ export const Hero = () =>
             <h1 className='text-hot-red-light text-2xl md:text-4xl mb-1 md:mb-3'>Storacha Powered AI</h1>
             <h2 className='text-hot-blue-light text-xl md:text-2xl mb-2 md:mb-6'>Self-sovereign data for your multi-agent deployment.</h2>
           </hgroup>
-          <Link className='inline-block bg-hot-red border border-hot-red hover:border-hot-blue-light hover:text-hot-blue-light text-white uppercase text-lg px-6 py-2 rounded-full whitespace-nowrap shadow-md' href='https://docs.storacha.network/ai/quickstart'>
+          <Link className='inline-block bg-hot-red border border-hot-red hover:border-hot-blue-light text-white uppercase text-lg px-6 py-2 rounded-full whitespace-nowrap shadow-md' href='https://docs.storacha.network/ai/quickstart'>
             <RocketLaunchIcon className='inline-block w-5 mr-1' />
             Quickstart
           </Link>
