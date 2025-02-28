@@ -18,10 +18,10 @@ export const Nav = ({ ...rest }: PropsWithChildren & { className?: string }) => 
         </div>
       </div>
       <ul className='tham-menu bg-hot-blue hidden absolute top-0 left-0 z-40 w-full h-screen p-3 pt-20 text-center text-3xl'>
+        <li><Link className='block p-3 mb-3 hover:text-white' href='#features' title='Features'>Features</Link></li>
+        <li><Link className='block p-3 mb-3 hover:text-white' href='#tutorial' title='Turorial'>Tutorial</Link></li>
         <li><Link className='block p-3 mb-3 hover:text-white' href='https://docs.storacha.network/ai/quickstart' title='Documentation'>Documentation</Link></li>
-        <li><Link className='block p-3 mb-3 hover:text-white' href='https://console.storacha.network' title='Web Console'>Console</Link></li>
-        <li><Link className='block p-3 mb-3 hover:text-white' href='https://storacha.network' title='Company'>Company</Link></li>
-        <li><Link className='block p-3 mb-3 hover:text-white' href='https://github.com/storacha/elizaos-plugin' title='GitHub'>GitHub</Link></li>
+        <li><Link className='block p-3 mb-3 hover:text-white' href='https://docs.storacha.network/ai/quickstart' title='Quickstart'>Quickstart</Link></li>
       </ul>
       <script>{hamburgerScript}</script>
     </nav>
