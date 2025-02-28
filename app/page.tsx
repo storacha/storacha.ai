@@ -60,7 +60,7 @@ const Home = () => {
             </ul>
             <p className='text-lg md:text-xl text-center'>
               Learn more in our
-              <Link className='inline-block bg-hot-blue-dark border border-hot-blue-dark hover:bg-hot-blue hover:border-hot-blue hover:text-hot-blue-dark text-white uppercase text-sm mx-3 px-6 py-2 rounded-full whitespace-nowrap shadow-md' href='https://docs.storacha.network/ai/quickstart'>
+              <Link className='inline-block bg-hot-blue-dark border border-hot-blue-dark hover:bg-hot-blue hover:border-hot-blue hover:text-hot-blue-light text-white uppercase text-sm mx-3 px-6 py-2 rounded-full whitespace-nowrap shadow-md' href='https://docs.storacha.network/ai/quickstart'>
                 <RocketLaunchIcon className='inline-block w-5 mr-1' />
                 Quickstart
               </Link>
