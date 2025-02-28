@@ -1,7 +1,7 @@
 import { PropsWithChildren } from 'react'
 import Link from 'next/link'
 
-export const Nav = ({ children, ...rest }: PropsWithChildren & { className?: string }) => {
+export const Nav = ({ ...rest }: PropsWithChildren & { className?: string }) => {
   return (
     <nav {...rest}>
       <div className='hidden md:inline-flex rounded-full border-2 border-hot-blue-light overflow-hidden p-1'>
