@@ -58,7 +58,7 @@ const Home = () => {
                 </div>
               </li>
             </ul>
-            <p className='text-xl text-center'>
+            <p className='text-lg md:text-xl text-center'>
               Learn more in our
               <Link className='inline-block bg-hot-blue-dark border border-hot-blue-dark hover:bg-hot-blue hover:border-hot-blue hover:text-hot-blue-dark text-white uppercase text-sm mx-3 px-6 py-2 rounded-full whitespace-nowrap shadow-md' href='https://docs.storacha.network/ai/quickstart'>
                 <RocketLaunchIcon className='inline-block w-5 mr-1' />
@@ -73,7 +73,7 @@ const Home = () => {
             <h1 className='font-[family-name:var(--font-dm-mono)] text-2xl md:text-4xl mb-3'>Tutorial</h1>
             <p className='mb-6 max-w-prose'>Watch our video tutorial to discover how to setup and use the Storacha ElizaOS plugin in an AI Agent to store a file provided by a user:</p>
             <iframe className='w-full aspect-video shadow-md mb-6' src="https://www.youtube.com/embed/Ow4HDoq-FSE" title="Tutorial: Build ElizaOS AI Agents powered by Storacha" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-            <p className='text-xl text-center'>
+            <p className='text-lg md:text-xl text-center'>
               Get started with our
               <Link className='inline-block bg-hot-blue-dark border border-hot-blue-dark hover:bg-hot-blue-light hover:border-hot-blue-light hover:text-hot-blue-dark text-white uppercase text-sm mx-3 px-6 py-2 rounded-full whitespace-nowrap shadow-md' href='https://docs.storacha.network/ai/quickstart'>
                 <RocketLaunchIcon className='inline-block w-5 mr-1' />
