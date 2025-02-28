@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import { DM_Sans, DM_Mono } from 'next/font/google'
 import './globals.css'
 
+export const runtime = 'edge'
+
 const dmSans = DM_Sans({
   variable: '--font-dm-sans',
   subsets: ['latin']
