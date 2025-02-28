@@ -88,7 +88,7 @@ const Home = () => {
             <Image src='/racha.png' width={235} height={128} alt='racha fire' className='mb-6 md:mb-0 md:float-right md:mr-20' />
             <h1 className='font-[family-name:var(--font-dm-mono)]  text-hot-red-light text-2xl md:text-4xl mb-3'>About Storacha</h1>
             <p className='text-xl max-w-md mb-6'>Leading the charge in truly decentralized hot data storage! Storacha is a Filecoin layer 2 built with IPFS tech.</p>
-            <Link className='inline-block bg-hot-red-light border border-hot-blue-dark hover:bg-hot-blue-light hover:border-hot-blue-light hover:text-hot-blue-dark text-hot-blue-dark uppercase text-sm px-6 py-2 rounded-full whitespace-nowrap shadow-md' href='https://docs.storacha.network/ai/quickstart'>
+            <Link className='inline-block bg-hot-red-light border border-hot-blue-dark hover:bg-hot-blue-light hover:border-hot-blue-light hover:text-hot-blue-dark text-hot-blue-dark uppercase text-sm px-6 py-2 rounded-full whitespace-nowrap shadow-md' href='https://storacha.network'>
               <BookOpenIcon className='inline-block w-5 mr-1' />
               Find out more
             </Link>
