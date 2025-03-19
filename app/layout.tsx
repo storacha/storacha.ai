@@ -54,10 +54,8 @@ export const metadata: Metadata = {
 
 const RootLayout = ({ children }: Readonly<{ children: React.ReactNode }>) => (
   <html lang='en'>
-    <head>
-      <script defer data-domain="storacha.ai" src="https://plausible.io/js/script.outbound-links.js">
-      </script>    
-    </head>
+    <script defer data-domain="storacha.ai" src="https://plausible.io/js/script.outbound-links.js">
+    </script>    
     <body className={`${dmSans.variable} ${dmMono.variable} antialiased font-[family-name:var(--font-dm-sans)]`}>
       {children}
     </body>
