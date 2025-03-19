@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { DM_Sans, DM_Mono } from 'next/font/google'
 import './globals.css'
+import Script from 'next/script'
 
 export const runtime = 'edge'
 
@@ -53,6 +54,10 @@ export const metadata: Metadata = {
 
 const RootLayout = ({ children }: Readonly<{ children: React.ReactNode }>) => (
   <html lang='en'>
+    <head>
+      <script defer data-domain="storacha.ai" src="https://plausible.io/js/script.outbound-links.js">
+      </script>    
+    </head>
     <body className={`${dmSans.variable} ${dmMono.variable} antialiased font-[family-name:var(--font-dm-sans)]`}>
       {children}
     </body>
