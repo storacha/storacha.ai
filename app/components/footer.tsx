@@ -14,7 +14,7 @@ export const Footer = () =>
             </Link>
           </div>
           <div className='mb-6'>
-            <Link href='https://discord.gg/jwANgTVjgF' className='inline-block mr-3 hover:text-hot-blue-light' title='Get involved on Discord'>
+            <Link href='https://discord.gg/pqa6Dn6RnP' className='inline-block mr-3 hover:text-hot-blue-light' title='Get involved on Discord'>
               <DiscordIcon className='inline-block' />
             </Link>
             <Link href='https://x.com/storachanetwork' className='inline-block mr-3 hover:text-hot-blue-light' title='Read the latest on X'>
