@@ -66,6 +66,7 @@ const Home = () => {
               </Link>
               docs.
             </p>
+            <p className='text-sm text-center mt-10'>Power your AI systems with decentralized storage in minutes! Choose your tool: <Link href='https://docs.storacha.network/ai/mcp/' className='underline font-semibold hover:text-hot-red-light'>MCP Server</Link>, <Link href='https://docs.storacha.network/w3cli/' className='underline font-semibold hover:text-hot-red-light'>CLI</Link>, <Link href='https://docs.storacha.network/w3up-client/' className='underline font-semibold hover:text-hot-red-light'>JS/Go clients</Link>, or <Link href='https://docs.storacha.network/ai/elizaos/' className='underline font-semibold hover:text-hot-red-light'>Custom Plugins</Link>.</p>
           </div>
         </div>
         <div id='tutorial' className='bg-hot-blue text-hot-blue-light py-16 flex justify-center'>
