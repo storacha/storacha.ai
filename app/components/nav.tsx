@@ -6,7 +6,7 @@ export const Nav = ({ ...rest }: PropsWithChildren & { className?: string }) => 
     <nav {...rest}>
       <div className='hidden md:inline-flex rounded-full border-2 border-hot-blue-light overflow-hidden p-1'>
         <NavLink href='#features' title='Features'>Features</NavLink>
-        <NavLink href='#tutorial' title='Tutorial'>Turorial</NavLink>
+        <NavLink href='#tutorial' title='Tutorial'>Tutorial</NavLink>
         <NavLink href='https://docs.storacha.network/ai/quickstart' title='Documentation'>Documentation</NavLink>
         <NavLink href='https://docs.storacha.network/ai/quickstart' title='GitHub' highlight>Quickstart</NavLink>
       </div>
@@ -19,7 +19,7 @@ export const Nav = ({ ...rest }: PropsWithChildren & { className?: string }) => 
       </div>
       <ul className='tham-menu bg-hot-blue hidden absolute top-0 left-0 z-40 w-full h-screen p-3 pt-20 text-center text-3xl'>
         <li><Link className='block p-3 mb-3 hover:text-white' href='#features' title='Features'>Features</Link></li>
-        <li><Link className='block p-3 mb-3 hover:text-white' href='#tutorial' title='Turorial'>Tutorial</Link></li>
+        <li><Link className='block p-3 mb-3 hover:text-white' href='#tutorial' title='Tutorial'>Tutorial</Link></li>
         <li><Link className='block p-3 mb-3 hover:text-white' href='https://docs.storacha.network/ai/quickstart' title='Documentation'>Documentation</Link></li>
         <li><Link className='block p-3 mb-3 hover:text-white' href='https://docs.storacha.network/ai/quickstart' title='Quickstart'>Quickstart</Link></li>
       </ul>
