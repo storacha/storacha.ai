@@ -6,7 +6,7 @@ export const Nav = ({ ...rest }: PropsWithChildren & { className?: string }) => 
     <nav {...rest}>
       <div className='hidden md:inline-flex rounded-full border-2 border-hot-blue-light overflow-hidden p-1'>
         <NavLink href='#features' title='Features'>Features</NavLink>
-        <NavLink href='#tutorial' title='Tutorial'>Turorial</NavLink>
+        <NavLink href='#tutorial' title='Tutorial'>Tutorial</NavLink>
         <NavLink href='https://docs.storacha.network/ai/quickstart' title='Documentation'>Documentation</NavLink>
         <NavLink href='https://docs.storacha.network/ai/quickstart' title='GitHub' highlight>Quickstart</NavLink>
       </div>
